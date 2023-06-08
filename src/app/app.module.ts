@@ -8,6 +8,8 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { SearchComponent } from './search/search.component';
 import { HttpClientModule } from '@angular/common/http';
+import { CarComponent } from './car/car.component';
+import { HomepageComponent } from './homepage/homepage.component';
 
 
 @NgModule({
@@ -15,6 +17,8 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     HeaderComponent,
     SearchComponent,
+    CarComponent,
+    HomepageComponent,
   ],
   imports: [
     BrowserModule,
