@@ -1,6 +1,6 @@
 <mat-form-field>
     <mat-label>Manufature</mat-label>
-    <mat-select [(value)]="manufature">
+    <mat-select [(value)]="manufaturer" (valueChange)="getModels()" >
         <mat-option *ngFor="let make of makeList" value="{{make.name}}">
             <pre>{{make.name}}</pre>
         </mat-option>
@@ -11,9 +11,8 @@
 <mat-form-field>
     <mat-label>Model</mat-label>
     <mat-select [(value)]="model">
-        <mat-option>None</mat-option>
-        <mat-option value="option1">Option 1</mat-option>
-        <mat-option value="option2">Option 2</mat-option>
-        <mat-option value="option3">Option 3</mat-option>
+        <mat-option *ngFor="let car of carList" value="{{car.name}}">
+            <pre>{{car.model}} </pre>
+        </mat-option>
     </mat-select>
 </mat-form-field>

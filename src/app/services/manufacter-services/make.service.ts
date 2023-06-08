@@ -11,4 +11,8 @@ export class MakeService {
   getAllManufactures() {
     return this.http.get(`http://localhost:8080/api/manufacturers`);
   }
+
+  getAllCarsByManufacturer(make:string){
+    return this.http.get(`http://localhost:8080/api/manufacturers/${make}/cars`);
+  }
 }

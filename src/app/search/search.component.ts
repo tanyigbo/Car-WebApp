@@ -10,16 +10,24 @@ import { MakeService } from '../services/manufacter-services/make.service';
 export class SearchComponent implements OnInit {
 
   protected makeList: any;
-  protected manufature: string = "";
+  protected carList: any;
+  protected manufaturer: string = "";
   protected model: string = "";
   constructor(private makeService: MakeService) {
 
   }
 
   ngOnInit(): void {
-    this.makeService.getAllManufactures().subscribe((manufaturers: any) => {
-      this.makeList = manufaturers.data;
+    this.makeService.getAllManufactures().subscribe((data: any) => {
+      this.makeList = data.data;
     })
+  }
 
+  getModels(): void {
+    this.makeService.getAllCarsByManufacturer(this.manufaturer).subscribe((data: any) => {
+      this.carList = data.data;
+      console.log(this.carList);
+      
+    })
   }
 }
