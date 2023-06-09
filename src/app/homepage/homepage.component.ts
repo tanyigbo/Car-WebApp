@@ -1,6 +1,5 @@
 import { Component,OnInit } from '@angular/core';
-import { MakeService } from '../services/manufacter-services/make.service';
-
+import { CarService } from '../services/car-services/car.service';
 @Component({
   selector: 'app-homepage',
   templateUrl: './homepage.component.html',
@@ -8,13 +7,13 @@ import { MakeService } from '../services/manufacter-services/make.service';
 })
 export class HomepageComponent implements OnInit {
 
-  protected makeList:any;
+  protected carList:any;
 
-  constructor(private makeService:MakeService){}
+  constructor(private carService:CarService){}
 
   ngOnInit(): void {
-    this.makeService.getAllManufactures().subscribe((makes:any)=>{
-      this.makeList = makes.data;     
+    this.carService.getAllCars().subscribe((cars:any)=>{
+      this.carList = cars.data;     
     });
   }
 }

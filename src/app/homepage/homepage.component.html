@@ -1,9 +1,9 @@
-<div>
+<div class="heading">
     <h1> All Cars</h1>
 </div>
 
-<div class="all-cars" *ngFor="let make of makeList">
-    <pre *ngFor="let car of make.carList">
+<div class="all-cars">
+    <div class="car" *ngFor="let car of carList">
         <img src="{{car.imageList[0].imageAddress}}" alt="" routerLink="/{{car.model}}">
-    </pre>
+    </div>
 </div>
