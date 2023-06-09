@@ -1,27 +1,67 @@
-# CarWebApp
+# Car Web App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# Table of Contents
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [Project Overview](#project-overview)
+- [Planning Documentation](#planning-documentation)
+  - [User Stories](#user-stories)
+  - [Wireframe](#wireframe)
+- [Tools and Technologies](#tools-and-technologies)
+- [Installation](#installation)
+- [Credits](#credits)
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Project Overview
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Planning Documentation 
 
-## Running end-to-end tests
+### User Stories
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+### Wireframe
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
+##  Hurdles And Wins 
+
+
+
+##  Tools and Technologies
+
+  
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" title="Material UI" alt="Material UI" width="40" height="40"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp; 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" title="Material UI" alt="Material UI" width="40" height="40"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" title="TypeScript" alt="TypeScript" width="40" height="40"/>&nbsp;
+
+
+
+## Technologies Used
+- Angular
+- HTML/CSS
+- Material UI
+- TypeScript
+
+
+## Installation
+To run the Travel Community App locally, follow these steps:
+
+1. Clone the repository: `git clone <repository-url>`
+5. Run the app locally: `ng serve --open`
+
+
+##  Credits 
+I appreciate the time and effort follow developers put into making suggestions and code snippets available on [Stack Overflow](https://stackoverflow.com/).
+
+I am thankful and appreciative for the awesome articles and pictures of the vairies cities:
+
+- [AutoBlog](https://www.autoblog.com/)<br>
+- [Baeldung](https://www.baeldung.com/)<br>
+- [EV Compare](https://evcompare.io/)<br>
+- [GeeksforGeeks](https://www.geeksforgeeks.org/)<br>
