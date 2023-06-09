@@ -17,6 +17,9 @@ export class ReviewComponent implements OnInit {
     private reviewService: ReviewService,
     private route: ActivatedRoute) { }
 
+  /**
+  * Uses active route to determine selected reveiw by id
+  */
   ngOnInit(): void {
     this.route.params.subscribe((url: any) => {
       this.model = url.model;
@@ -25,6 +28,9 @@ export class ReviewComponent implements OnInit {
     });
   }
 
+  /**
+   * Uses Review Service to retrieve review data by id
+   */
   getReview(): void {
     this.reviewService.getReviewById(this.reviewId).subscribe((review: any) => {
       this.review = review.data;
