@@ -1,33 +1,16 @@
 # Car Web App
-
+The goal of the web app was to allow users to view electric cars on the market and be a helpful and informative tool for researching and comparing electrice vehicals.
 
 
 # Table of Contents
 
-
-- [Project Overview](#project-overview)
-- [Planning Documentation](#planning-documentation)
-  - [User Stories](#user-stories)
-  - [Wireframe](#wireframe)
+- [Wireframe](#wireframe)
 - [Tools and Technologies](#tools-and-technologies)
 - [Installation](#installation)
 - [Credits](#credits)
 
-
-## Project Overview
-
-
-## Planning Documentation 
-
-### User Stories
-
-
 ### Wireframe
 
-
-
-
-##  Hurdles And Wins 
 
 
 
@@ -39,7 +22,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" title="Material UI" alt="Material UI" width="40" height="40"/>&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" title="TypeScript" alt="TypeScript" width="40" height="40"/>&nbsp;
-
 
 
 ## Technologies Used
