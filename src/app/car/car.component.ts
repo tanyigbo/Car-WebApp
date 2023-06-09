@@ -27,7 +27,8 @@ export class CarComponent implements OnInit {
   getCarInfo(): void {
     this.carService.getCarByModel(this.modelName.replace(" ", "_"))
       .subscribe((data: any) => {
-        this.car = data.data;        
+        this.car = data.data; 
+        console.log(this.car);            
       })
   }
 
