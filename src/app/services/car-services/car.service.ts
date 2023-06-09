@@ -11,4 +11,8 @@ export class CarService {
   getCarByModel(model: string) {
     return this.http.get(`http://localhost:8080/api/cars/model/${model}`);
   }
+
+  getAllCars(){
+    return this.http.get(`http://localhost:8080/api/cars`)
+  }
 }
