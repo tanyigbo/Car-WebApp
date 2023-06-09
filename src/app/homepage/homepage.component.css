@@ -1,0 +1,13 @@
+img {
+    width: 30vw;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.all-cars {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}

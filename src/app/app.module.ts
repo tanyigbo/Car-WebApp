@@ -10,6 +10,7 @@ import { SearchComponent } from './search/search.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CarComponent } from './car/car.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { ReviewComponent } from './review/review.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { HomepageComponent } from './homepage/homepage.component';
     SearchComponent,
     CarComponent,
     HomepageComponent,
+    ReviewComponent,
   ],
   imports: [
     BrowserModule,

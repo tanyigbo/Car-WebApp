@@ -1,16 +1,20 @@
 div {
-    outline: auto;
-}
-
-.slide-container {
     display: flex;
     justify-content: center;
 }
 
-.slide-container img {
+img {
     margin: 0;
     padding: 0;
-    width: 65%;
     height: auto;
     overflow-x: hidden;
+}
+
+.slide-container img {
+    width: 100%;
+}
+
+.car-reviews {
+    height: 10vh;
+    gap: 30px;
 }

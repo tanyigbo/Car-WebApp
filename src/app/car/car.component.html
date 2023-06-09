@@ -10,6 +10,10 @@
     </div>
 </div>
 
+<div>
+    <h2>Car Specs</h2>
+</div>
+
 <div class="car-info">
     <ul>
         <li>Range: {{car.range}} miles</li>
@@ -22,8 +26,12 @@
     </ul>
 </div>
 
+<div>
+    <h2>Reviews</h2>
+</div>
+
 <div class="car-reviews">
-    <pre *ngFor="let reivew of car.reviewList">
-        {{reivew.title}}
-    </pre>
+    <div class="reivew-img" *ngFor="let reivew of car.reviewList">
+        <img src="{{reivew.reviewImageList[0].imageAddress}}" routerLink="{{reivew.id}}">
+    </div>
 </div>

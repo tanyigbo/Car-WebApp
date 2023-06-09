@@ -1,0 +1,23 @@
+<div class="title">
+    <h1>
+        {{review.title}}
+    </h1>
+</div>
+
+<div>
+    <h2>{{model}} Review</h2>
+</div>
+
+<div class="review-text">
+{{review.reviewText}}
+</div>
+
+<div>
+    <h2>Images</h2>
+</div>
+
+<div class="review-images">
+    <div class="reivew-img" *ngFor="let image of review.reviewImageList">
+        <img src="{{image.imageAddress}}">
+    </div>
+</div>
