@@ -32,6 +32,6 @@
 
 <div class="car-reviews">
     <div class="reivew-img" *ngFor="let reivew of car.reviewList">
-        <img src="{{reivew.reviewImageList[0].imageAddress}}" alt="">
+        <img src="{{reivew.reviewImageList[0].imageAddress}}" routerLink="{{reivew.id}}">
     </div>
 </div>

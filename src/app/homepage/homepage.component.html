@@ -4,6 +4,6 @@
 
 <div class="all-cars" *ngFor="let make of makeList">
     <pre *ngFor="let car of make.carList">
-        <img src="{{car.imageList[0].imageAddress}}" alt="" routerLink="{{car.model}}">
+        <img src="{{car.imageList[0].imageAddress}}" alt="" routerLink="/{{car.model}}">
     </pre>
 </div>
