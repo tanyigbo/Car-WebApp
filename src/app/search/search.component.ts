@@ -26,8 +26,6 @@ export class SearchComponent implements OnInit {
   getModels(): void {
     this.makeService.getAllCarsByManufacturer(this.manufaturer).subscribe((data: any) => {
       this.carList = data.data;
-      console.log(this.carList);
-      
     })
   }
 }

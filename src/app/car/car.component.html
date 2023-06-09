@@ -1,1 +1,29 @@
-<p>car works!</p>
+<div class="car-name">
+    <h1>
+        {{car.model}}
+    </h1>
+</div>
+
+<div class="image-container">
+    <div class="slide-container">
+        <img *ngFor="let img of car.imageList" src="{{img.imageAddress}}" class="slides">
+    </div>
+</div>
+
+<div class="car-info">
+    <ul>
+        <li>Range: {{car.range}} miles</li>
+        <li>Battery Capacity: {{car.batteryCap}} kWh</li>
+        <li>Cargo Volume: {{car.cargoVol}} ft<sup>3</sup></li>
+        <li>Length: {{car.length}} in</li>
+        <li>Width: {{car.width}} in</li>
+        <li>Height: {{car.height}} in</li>
+        <li>Drivetrain: {{car.driveType}}</li>
+    </ul>
+</div>
+
+<div class="car-reviews">
+    <pre *ngFor="let reivew of car.reviewList">
+        {{reivew.title}}
+    </pre>
+</div>

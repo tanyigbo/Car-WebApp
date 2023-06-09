@@ -1,0 +1,16 @@
+div {
+    outline: auto;
+}
+
+.slide-container {
+    display: flex;
+    justify-content: center;
+}
+
+.slide-container img {
+    margin: 0;
+    padding: 0;
+    width: 65%;
+    height: auto;
+    overflow-x: hidden;
+}
