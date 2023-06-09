@@ -10,7 +10,7 @@ The goal of the web app was to allow users to view electric cars on the market a
 - [Credits](#credits)
 
 ### Wireframe
-
+![Wireframe](https://github.com/tanyigbo/Car-WebApp/blob/main/assests/images/Car_page.PNG)
 
 
 
