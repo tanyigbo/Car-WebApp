@@ -1,1 +1,21 @@
-<p>car works!</p>
+<div class="car-name">
+    <h1>
+        {{car.model}}
+    </h1>
+</div>
+
+<div class="image-container">
+    <div class="slide-container">
+        <img *ngFor="let img of car.imageList" src="{{img.imageAddress}}" class="slides">
+    </div>
+</div>
+
+<div class="car-info">
+
+</div>
+
+<div class="car-reviews">
+    <pre *ngFor="let reivew of car.reviewList">
+        {{reivew.title}}
+    </pre>
+</div>
