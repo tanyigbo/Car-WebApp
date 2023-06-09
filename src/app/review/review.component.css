@@ -1,0 +1,9 @@
+div {
+    justify-content: center;
+    display: flex;
+}
+
+.review-images {
+    height: 10vh;
+    gap: 30px;
+}

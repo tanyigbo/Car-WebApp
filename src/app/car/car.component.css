@@ -1,6 +1,6 @@
 div {
+    display: flex;
     justify-content: center;
-    outline: auto;
 }
 
 img {
@@ -10,15 +10,10 @@ img {
     overflow-x: hidden;
 }
 
-div,
-.slide-container,
-.car-reviews {
-    display: flex;
-}
-
-.slide-container img{
+.slide-container img {
     width: 100%;
 }
+
 .car-reviews {
     height: 10vh;
     gap: 30px;
