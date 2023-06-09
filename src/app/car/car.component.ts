@@ -17,6 +17,9 @@ export class CarComponent implements OnInit {
     private carService: CarService,
   ) { }
 
+  /**
+   * Uses active route to determine selected car model
+   */
   ngOnInit(): void {
     this.route.params.subscribe((details: any) => {
       this.modelName = details.model;
@@ -24,6 +27,9 @@ export class CarComponent implements OnInit {
     })    
   }
 
+  /**
+   * Uses Car Service to retrieve car data by model name
+   */
   getCarInfo(): void {
     this.carService.getCarByModel(this.modelName.replace(" ", "_"))
       .subscribe((data: any) => {
